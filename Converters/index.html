@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="converter">
+            <h1>Converters</h1>
+
+
+            <form action="" class="temp">
+                <h2>Temperature <span>Converter</span></h2>
+                <div>
+                    <input type="number" id="cel" placeholder="celsius" oninput="tempConv(this.id, this.value)">
+                    <label for="cel">Celsius</label>
+                </div>
+                <div>
+                    <input type="number" id="fah" placeholder="fahrenheit" oninput="tempConv(this.id, this.value)">
+                    <label for="fah">Fahrenheit</label>
+                </div>
+                <div>
+                    <input type="number" id="kel" placeholder="kelvin"  oninput="tempConv(this.id, this.value)" >
+                    <label for="kel">Kelvin</label>
+                </div>
+            </form>
+            
+            <form action="" class="dist">
+                <h2>Distance <span>Converter</span></h2>
+                <div>
+                    <input type="number" id="km" placeholder="Kilometre" oninput="disConv(this.id, this.value)">
+                    <label for="km">Kilometre</label>
+                </div>
+                <div>
+                    <input type="number" id="ml" placeholder="Miles" oninput="disConv(this.id, this.value)">
+                    <label for="ml">Miles</label>
+                </div>
+                <div>
+                    <input type="number" id="nm" placeholder="Nautical Miles"  oninput="disConv(this.id, this.value)" >
+                    <label for="nm">Nautical Miles</label>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2023, Enitan Odupitan</p>
+        
+    </footer>
+
+
+
+
+    <script src="main.js">
+
+    </script>
+    
+</body>
+</html>
